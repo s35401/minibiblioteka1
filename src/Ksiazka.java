@@ -2,7 +2,7 @@ public class Ksiazka {
     private String tytul;
     private String autor;
     private int LiczbaStron;
-    private boolean dostepna;
+    boolean dostepna;
 
     public Ksiazka (String tytul, String autor, int LiczbaStron, boolean dostepna) {
         this.tytul = tytul;

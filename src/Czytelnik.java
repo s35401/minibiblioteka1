@@ -4,7 +4,7 @@ public class Czytelnik {
     private int numerKarty;
     private int liczbaWypozyczen;
 
-    public Czytelnik(String imie, String nazwisko, int numerKarty, int liczbaWypozyczen) {
+    public Czytelnik(String imie, String nazwisko, int numerKarty) {
         this.imie = imie;
         this.nazwisko = nazwisko;
         this.numerKarty = numerKarty;
